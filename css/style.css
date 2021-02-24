@@ -42,7 +42,7 @@
   }
   /* HERO SECTION STYLES */
   .separator {
-    width: 700px;
+    width: 500px;
     overflow:visible;
   
   }
@@ -58,24 +58,24 @@
 .aboutMe {
     height:780px;
     padding:25px;
-    background-color:#A4ACC2;
-    color: white;
+    background-color:white;
+    color: black;
     font-family: "Poppins", sans-serif;
     justify-content: space-around;
     text-align: left;
 
 }
 h1 {
-    font-weight: bold;
-    font-size:64px;
+    font-weight: Regular;
+    font-size:38px;
     padding: 10px;
 }
 h2 {
-    font-size:48px;
-    font-weight: medium;
+    font-size:54px;
+    font-weight: bold;
 }
 p {
-    font-size: 22px;
+    font-size: 48px;
     font-weight:normal;
     height:fit-content;
     
