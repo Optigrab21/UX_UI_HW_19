@@ -43,6 +43,8 @@
   /* HERO SECTION STYLES */
   .separator {
     width: 700px;
+    overflow:visible;
+  
   }
  .left{
      float:left;
