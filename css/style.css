@@ -41,38 +41,36 @@
     color: #BD8985;
   }
   /* HERO SECTION STYLES */
-  .separator {
-    width: 500px;
-    overflow:visible;
-  
+  .heroImg {
+    padding: 25px 15px;
+    background-color: white;
   }
+  
  .left{
      float:left;
-     padding:30px;
- }
-.right {
-    float:right;
-    padding:30px;
-    background-color:#A4ACC2;
-}
-.aboutMe {
-    height:780px;
-    padding:25px;
-    background-color:white;
-    color: black;
-    font-family: "Poppins", sans-serif;
-    justify-content: space-around;
-    text-align: left;
 
+ }
+ .aboutME {
+  max-width: 300px;
+  padding: 50px;
+  background-color: #FFFFFF;
+  text-align: center;
+  float:right;
+  padding:30px;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  justify-content: space-around;
+  text-align: left;
 }
+
 h1 {
     font-weight: Regular;
     font-size:38px;
     padding: 10px;
 }
 h2 {
-    font-size:54px;
-    font-weight: bold;
+    font-size:69px;
+    font-weight:bolder
 }
 p {
     font-size: 48px;
@@ -80,6 +78,49 @@ p {
     height:fit-content;
     
 }
+/* My Work Section */
+.myWork {
+  padding: 30px 30px;
+  padding-top: 0;
+  background-color: #EBEBEB;
+}
+.workGrid {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 600px 600px 600px;
+  grid-template-areas:
+  "content1 img1"
+  "content2 img2"
+  "content3 img3"
+  ;
+}
+.workGrid img {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+.img1 {
+  grid-area: img1;
+}
+.img2 {
+  grid-area: img2;
+}
+.img3 {
+  grid-area: img3;
+}
+.img1, .img2, .img3, .content1, .content2, .content3 {
+  padding: 80px;
+}
+.content1 {
+  grid-area: content1;
+}
+.content2 {
+  grid-area: content2;
+}
+.content3 {
+  grid-area: content3;
+}
+
   /* FOOTER CLASSES */
   footer {
       background-color:#f0eae7;
@@ -133,11 +174,11 @@ margin-left: auto;
 margin-right: auto;
 }
 
-.linkedIn {
+.LinkedIn {
 width:50px;
 height:15px;
 }
-.behance {
+.Behance {
 width: 50px;
 height:15px;
 }
